@@ -2,6 +2,7 @@
 Crypto info is a web application where users can search a crypto currency and see their price, volume, market capital, and their status (- +).
 
 ## How to run the app
+0. Access to webapp: https://cryptodata001.netlify.app
 1. Either fork or download the app and open the folder in the cli
 2. Install all dependencies using 'yarn install' or 'npm i' command. The app will be served at http://localhost:3000/
 3. Go to http://localhost:3000/ in your browser and search 

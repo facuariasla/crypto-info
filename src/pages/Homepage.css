@@ -5,7 +5,9 @@
   margin: 0;
 }
 html{
-  background: linear-gradient(343deg, rgba(0,0,0,1) 23%, rgba(77,83,0,1) 100%);
+  background: rgb(0,0,0);
+  background: linear-gradient(261deg, rgb(31, 31, 31) 18%, rgb(71, 71, 71) 100%);
+  /* background: linear-gradient(343deg, rgba(0,0,0,1) 23%, rgba(77,83,0,1) 100%); */
 }
 .coin-app{
   font-family: 'Montserrat', sans-serif;
@@ -13,7 +15,7 @@ html{
   justify-content: center;
   flex-direction: column;
   background: rgb(0,0,0);
-  background: linear-gradient(261deg, rgb(31, 31, 31) 18%, rgba(105,105,105,1) 100%);
+  background: linear-gradient(261deg, rgb(31, 31, 31) 18%, rgb(71, 71, 71) 100%);
   color: #fff;
   height: 100%;
 }
