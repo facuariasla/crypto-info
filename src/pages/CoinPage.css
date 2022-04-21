@@ -3,13 +3,44 @@
   color: #fff;
 }
 
-.coin-data{
+.single-coin-data{
   font-family: 'Montserrat', sans-serif;
   display: grid;
   height: 100vh;
-  grid-template-columns: 1fr 1fr;
+  grid-template-columns: 40vw 60vw;
   grid-template-rows: 1fr;
 }
-.coin-card-info p a {
+@media screen and (max-width: 768px) {
+  .single-coin-data{
+    grid-template-columns: 1fr;
+    grid-template-rows: 1fr 1fr;
+    gap: 1em;
+  }
+}
+
+.single-coin-card-info p a {
   color: rgb(255, 255, 100);
+}
+
+.single-coin-card-info{
+  display: grid;
+  justify-items: center;
+  padding: 1em;
+  gap: 15px;
+}
+@media screen and (max-width: 768px){
+  .single-coin-card-info{
+
+  }
+}
+
+.single-coin-card-info p{
+  text-align: center;
+}
+.card-market{
+  font-size: 20px;
+  padding: 0;
+}
+.card-market p {
+  margin: 5px;
 }
