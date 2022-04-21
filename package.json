@@ -8,7 +8,9 @@
     "@testing-library/user-event": "^13.2.1",
     "axios": "^0.26.1",
     "buffer": "^6.0.3",
+    "chart.js": "^3.7.1",
     "react": "^18.0.0",
+    "react-chartjs-2": "^4.1.0",
     "react-dom": "^18.0.0",
     "react-html-parser": "^2.0.2",
     "react-router-dom": "6",
@@ -41,5 +43,8 @@
   },
   "resolve.fallback": {
     "buffer": false
+  },
+  "devDependencies": {
+    "@faker-js/faker": "^6.2.0"
   }
 }

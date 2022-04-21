@@ -4,6 +4,7 @@ import { useParams } from "react-router-dom";
 import "./CoinPage.css";
 import ReactHtmlParser from "react-html-parser";
 import { CoinGraph } from "../components/CoinGraph";
+import { NavBar } from "../components/NavBar";
 
 const SingleCoin = (id) => `https://api.coingecko.com/api/v3/coins/${id}`;
 
@@ -19,7 +20,6 @@ export const CoinPage = () => {
         setCoin(res.data);
         setCoinDes(res.data.description.en);
         setcoinMarketC(res.data.market_data.market_cap.usd);
-        console.log(res.data);
       })
       .catch((error) => {
         console.log(error);
@@ -28,6 +28,7 @@ export const CoinPage = () => {
 
   return (
     <div className="coin-data-container">
+      <NavBar/>
       <div className="single-coin-data">
         {coin && (
           <div className="single-coin-card-info">
@@ -49,8 +50,9 @@ export const CoinPage = () => {
           </div>
         )}
 
+        
         <div className="coin-chart">
-          <CoinGraph />
+          {coin && <CoinGraph coin={coin}/>}
         </div>
       </div>
     </div>

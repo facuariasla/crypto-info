@@ -32,6 +32,10 @@ h1, p{
   width: 50px;
 }
 
+.coin h1{
+  text-align: center;
+}
+
 .coin .coin-price{
   font-weight: 700;
   font-size: 22px;

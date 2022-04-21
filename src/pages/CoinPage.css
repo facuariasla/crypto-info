@@ -6,9 +6,10 @@
 .single-coin-data{
   font-family: 'Montserrat', sans-serif;
   display: grid;
-  height: 100vh;
-  grid-template-columns: 40vw 60vw;
+  height: 90vh;
+  grid-template-columns: 30vw 70vw;
   grid-template-rows: 1fr;
+  align-items: center;
 }
 @media screen and (max-width: 768px) {
   .single-coin-data{
@@ -33,7 +34,9 @@
 
   }
 }
-
+.single-coin-card-info img{
+  width: 200px;
+}
 .single-coin-card-info p{
   text-align: center;
 }
@@ -43,4 +46,9 @@
 }
 .card-market p {
   margin: 5px;
+}
+/* //////////////////////////// */
+
+.coin-chart{
+  align-self: center;
 }

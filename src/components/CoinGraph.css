@@ -1,0 +1,42 @@
+.chart-and-btn-container{
+  display: grid;
+  grid-template-columns: 1fr;
+  grid-template-rows: 1fr 100px;
+  justify-items: center;
+  align-items: center;
+  width: 100%;
+}
+
+.chart-graph{
+  width: 95%;
+}
+
+
+/* BUTTONS */
+.btn-graph{
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 1rem;
+}
+.btn-graph button{
+  height: 50px;
+  width:100%;
+  font-family: 'Montserrat', sans-serif;
+  border: 1px solid gold;
+  border-radius: 5px;
+  cursor: pointer;
+  background-color: #1e1e1e;
+  color: #fff;
+  font-weight: 500;
+}
+
+.btn-graph button:focus{
+  background-color: gold;
+  color: #1e1e1e;
+  font-weight: 700;
+}
+.btn-graph button:hover{
+  background-color: gold;
+  color: #1e1e1e;
+  font-weight: 700;
+}
