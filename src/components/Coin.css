@@ -1,5 +1,10 @@
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;600;700&display=swap');
 
+a{
+  text-decoration: none;
+  color: white;
+}
+
 h1, p{
   margin: 0;
 }
@@ -17,6 +22,10 @@ h1, p{
   padding: 5px;
   background-color: #3b433f;
   box-shadow: 4px 4px rgba(0, 0, 0, 0.3);
+  cursor: pointer;
+}
+.coin:hover{
+  background-color: #2b2f2d;
 }
 
 .coin img {

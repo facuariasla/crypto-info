@@ -1,0 +1,15 @@
+
+.coin-data-container{
+  color: #fff;
+}
+
+.coin-data{
+  font-family: 'Montserrat', sans-serif;
+  display: grid;
+  height: 100vh;
+  grid-template-columns: 1fr 1fr;
+  grid-template-rows: 1fr;
+}
+.coin-card-info p a {
+  color: rgb(255, 255, 100);
+}
