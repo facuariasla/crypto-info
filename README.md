@@ -8,6 +8,7 @@ Crypto info is a web application where users can search a crypto currency and se
 3. Go to http://localhost:3000/ in your browser and search 
 
 ## Dependencies in package.json
+Using coingeko API: https://www.coingecko.com/es/api/documentation
 
 # Getting Started with Create React App
 
